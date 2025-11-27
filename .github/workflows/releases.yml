@@ -47,5 +47,5 @@ jobs:
           tag_name: ${{ github.ref }}
           name: ${{ steps.tag_short.outputs.short }}
           files: |
-            HanYuDaCiDian-*.txt
+            _hanyudacidian-*.txt
             Release.txt
